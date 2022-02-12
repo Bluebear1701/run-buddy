@@ -185,14 +185,18 @@ body {
     }
     .trainers div {
         margin-bottom: 80px;  
-    }
+    } 
 
-    .trainers {
+    .trainer {
         width: 900px;
         margin: 0 auto 30px auto;
         background: #024e76;
         color: #fce138;
         overflow: auto;
+    }
+
+    .trainer {
+        text-align: center;
     }
 
     .trainer img {
@@ -233,9 +237,13 @@ body {
     .text-right {
         text-align: right;
     }
-    .trainer div{
-        margin-bottom: 80px;
+
+    /*REACH OUT STYLES START*/
+    .contact {
+        text-align: center;
+        background: #024e76;
     }
+   
 
     
 
