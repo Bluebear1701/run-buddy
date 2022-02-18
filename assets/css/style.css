@@ -45,7 +45,7 @@ body {
     }
 
     header nav ul li a {
-        margin: 0 30px;
+        padding: 10px 15px;
         font-weight: lighter;
         font-size: 1.55vw; 
     }
@@ -88,6 +88,7 @@ body {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        align-items: flex-start;
     }  
     
     .hero-cta {
@@ -213,7 +214,7 @@ body {
     }
     
     .section-title {
-        font-size: 55px;
+        font-size: 48px;
         color: #024e76;               
         border-bottom: 3px solid; 
         padding-bottom: 20px;  
@@ -352,7 +353,29 @@ body {
       
       .flex-row {
         display: flex;
-      }  
-    
+      } 
+      /*Media Query for Smaller Desktop screens and smalle*/ 
+    @media screen and (max-width: 980px) {
+        header h1 a {
+            /* this will be applied on any screen smaller than 980px*/
+            color: tomato;
+            }        
+    }
+    /*Media Query for Tablets  and maller*/
+    @media screen and (max-width: 980px) {
+        header h1 {
+            /* this will be applied on any screen between 768px and 575px */
+            font-size: 80px;
+        }
+    }
+    /*Media query for Moble Phones and smaller*/
+    @media  screen and (max-width: 575px) {
+        header h1 {
+            /*this will be applied on any screen smaller than 575px*/
+            font-size: 100px;
+        }
+    }
+       
+
 
     
